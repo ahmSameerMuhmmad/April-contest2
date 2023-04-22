@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>April-contest2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="headerNav" id="navbar">
+        <ul>
+            <li><a href="javascript:void(0)" class="left"> <b>Startup</b> </a></li>
+            <li><a href="javascript:void(0)" class="right1">Home</a></li>
+            <li><a href="#javascript:void(0)" class="right2">About Us</a></li>
+            <li><a href="javascript:void(0)" class="right3">Contact Us</a></li>
+            <li><a href="javascript:void(0)" class="right4">Login</a></li>
+        </ul>
+    </div>
+    <div class="container2">
+        <div class="left">
+            <h1>Startup Landing Page</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Exercitationem consequatur eius laborum iusto beatae, possimus voluptatum aperiam porro tempora nisi,
+                suscipit soluta, ab harum excepturi cumque ad consectetur impedit expedita.
+                Dicta, consequatur quidem rem suscipit eius adipisci commodi ducimus porro consequuntur officia nulla.
+                Neque impedit temporibus odit! Blanditiis voluptate libero aliquam eaque ducimus quaerat debitis,
+                placeat nobis ea, obcaecati praesentium!</p>
+            <button>Login</button>
+        </div>
+        <div class="right">
+            <img src="./img.png" alt="jeffImage">
+        </div>
+    </div>
+    <div class="container3">
+        <h1>Contact Us</h1>
+        <div class="name">
+            <input type="text" placeholder="Name">
+        </div>
+        <div class="email">
+            <input type="text" placeholder="Email">
+        </div>
+        <div class="mobcity">
+            <div class="mobile">
+                <input type="text" placeholder="Mobile Number">
+            </div>
+            <div class="city">
+                <input type="text" name="city" placeholder="City">
+            </div>
+        </div>
+        <div class="button">
+            <button>Submit Form</button>
+        </div>
+
+    </div>
+
+    <div class="container4">
+        <table style="width: 100%";>
+            <tr>
+                <th>SNO.</th>
+                <th>Startup Name</th>
+                <th>Startup Description</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>WowIndia</td>
+                <td>A startup with WOW Ideas</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>WowIndia</td>
+                <td>A startup with WOW Ideas</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>WowIndia</td>
+                <td>A startup with WOW Ideas</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>WowIndia</td>
+                <td>A startup with WOW Ideas</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>WowIndia</td>
+                <td>A startup with WOW Ideas</td>
+            </tr>
+            <tr id="footer">
+                <td>00.</td>
+                <td>Final Footer</td>
+                <td>Loreum Ipsum Text</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+
+</body>
+
+</html>

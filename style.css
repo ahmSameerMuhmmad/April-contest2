@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    position: relative;
+
+}
+
+.headerNav {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: #FCAF02;
+    display: block;
+    width: 100%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #navbar{
+    overflow: hidden;
+  }
+
+.headerNav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+.headerNav ul li a {
+    text-decoration: none;
+}
+
+.headerNav .left {
+    float: left;
+    font-size: 25px;
+    color: black;
+}
+
+.right1,
+.right2,
+.right3,
+.right4 {
+    float: right;
+    font-size: 16px;
+    font-size: 22px;
+    color: #000000;
+}
+
+.right4 {
+    position: absolute;
+    right: 100px;
+}
+
+.right3 {
+    position: absolute;
+    right: 190px;
+}
+
+.right2 {
+    position: absolute;
+    right: 320px;
+}
+
+.right1 {
+    position: absolute;
+    right: 440px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 350px;
+    left: 40px;
+    right: 40px;
+    top: 110px;
+    margin-top: 100px;
+}
+.container2 .left{
+    padding: 10px 16px;
+    
+    color: #FFFFFF;
+    height: 300px;
+
+}
+.container2 .left p{
+    font-size: 17px;
+    margin-top: 25px;
+}
+.container2 .left button{
+ position: absolute;
+ bottom: 42px;
+ height: 35px;
+ width: 140px;
+ background-color: #FCAF02;
+ border-radius: 20px;
+ border: none;
+ font-size: 16px;
+ font-weight: bold;
+}
+.container2 .right img{
+    height:300px ;
+    width:450px ;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.container3{
+    position: absolute;
+    display: block;
+    height: 550px;
+    left: 10px;
+    right: 40px;
+    top: 320px;
+    bottom: 20px;
+}
+.container3 h1{
+    margin-left: 10px;
+    color:#FCAF02 ;
+}
+.container3 .name input{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #000000;
+    border: 1px solid #FCAF02;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.container3 .email input{
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #000000;
+    border: 1px solid #FCAF02;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.mobcity{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.container3 .mobile input{
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 0px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #000000;
+    border: 1px solid #FCAF02;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.container3 .city input{
+    margin-top: 15px;
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 0px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #000000;
+    border: 1px solid #FCAF02;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.container3 .button button{
+    position: absolute;
+    margin-top: 22px;
+    width: 10%;
+    left: 45%;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid #FCAF02;
+    background-color: #FCAF02;
+    color: azure;
+    font-size:18px ;
+    color: #000000;
+    font-weight:bold;
+}
+
+.container4 {
+    box-sizing: border-box;
+    position: absolute;
+    right: 40px;
+    left: 10px;
+    top: 654px;
+}
+.container4 table{
+    margin-bottom: 100px;
+    height: 00px;
+
+}
+.container4 table {
+    color: #FCAF02;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.container4 table, tr{
+    border: 1px solid #FCAF02;
+}
+#footer{
+    background-color: #FCAF02;
+    color: #000000;
+}
+table th+th, td{
+    border-left: 1px solid #FCAF02;
+}
+
+
+
+
